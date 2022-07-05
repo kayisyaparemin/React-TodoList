@@ -23,10 +23,16 @@
     display: flex;
     margin: .5rem 0;
     padding: .5rem;
+    opacity: .9;
 }
 
 .liste-baslik {
     margin-right: auto;
+}
+
+.liste-durum {
+    transform: scale(1.5);
+    margin-right: .6rem;
 }
 
 .liste-oge:nth-child(odd) {
